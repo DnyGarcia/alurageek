@@ -12,7 +12,7 @@ form.addEventListener("submit", (evento) => {
   productoServices
     .creaProductos(nombre, url, precio)
     .then((respuesta) => {
-      window.location.href = "../screens/index.html";
+      window.location.href = "../index.html";
       console.log(respuesta);
     })
     .catch((err) => {
